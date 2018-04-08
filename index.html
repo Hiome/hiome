@@ -1,6 +1,15 @@
 <!Doctype html>
 <html>
 <head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117181574-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-117181574-1');
+  </script>
+
   <title>Hiome</title>
   <link rel="icon" type="image/png" href="/images/favicon.png" />
 </head>
@@ -33,7 +42,7 @@
     letter-spacing: 2px;
     font-size: 50px;
   }
-  p#coming_soon_container {
+  p#coming_soon_container, p#meetup {
     text-align: center;
     padding: 20px 0;
   }
@@ -62,6 +71,8 @@
     <h1>HIOME</h1>
 
     <p id="coming_soon_container"><span id="coming_soon">Coming Soon</span></p>
+
+    <p id="meetup">In Chicago? Join our <a href="https://www.meetup.com/Chicago-Home-Automation/">Chicago Home Automation meetup</a>!</p>
 
     <div id="footer">
       <p><a href="mailto:founders@hiome.com">founders@hiome.com</a></p>
