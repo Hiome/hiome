@@ -1,6 +1,7 @@
 <!Doctype html>
 <html>
 <head>
+  <meta charset="utf-8">
   <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117181574-1"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -12,85 +13,167 @@
 
   <title>Hiome</title>
   <link rel="icon" type="image/png" href="/images/favicon.png" />
+  <style>
+    body {
+      font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      text-align: center;
+      line-height: 1.5em;
+      margin: 0;
+      padding: 0;
+      min-width: 550px;
+    }
+    a {
+      color: rgb(0, 142, 226);
+      text-decoration: none;
+    }
+    a:hover {
+      text-decoration: underline;
+    }
+    #header {
+      height: 350px;
+      background-color: #06112E;
+      color: #fff;
+      margin: 0;
+      padding: 0;
+    }
+    #logo {
+      padding-top: 50px;
+    }
+    #logo object {
+      width: 51px;
+      height: 85px;
+    }
+    h1 {
+      margin: 30px 0 40px 0;
+      font-weight: 200;
+      letter-spacing: 2px;
+      font-size: 50px;
+      line-height: 1.2em;
+      text-transform: uppercase;
+      padding: 0 10px;
+    }
+    h1 span {
+      color: #279DD7;
+    }
+    h2 {
+      font-size: 40px;
+      padding: 20px;
+    }
+    h3 {
+      margin-top: 50px;
+    }
+    #learnmore {
+      padding: 30px 0 0 0;
+      text-align: center;
+    }
+    input#email {
+      height: 30px;
+      width: 260px;
+      font-size: 18px;
+      padding: 5px;
+      border: none;
+      border-bottom: 2px solid #ccc;
+    }
+    input#email:focus {
+      outline: none;
+      border-color: #ED9B40;
+    }
+    button#submit {
+      cursor: pointer;
+      width: 44px;
+      height: 44px;
+      border: none;
+      padding: 0;
+      background-color: #fff;
+      position: relative;
+      bottom: -17px;
+    }
+    button#submit svg path {
+      fill: #ccc;
+    }
+    button#submit:hover svg path, button#submit:focus svg path, input#email:focus ~ button#submit svg path {
+      fill: #ED9B40;
+    }
+    div#comingsoon {
+      text-align: center;
+      margin-top: 60px;
+    }
+    div#comingsoon span {
+      padding: 10px 20px;
+      border: 1px solid #ED9B40;
+      border-radius: 20px;
+      color: #ED9B40;
+    }
+    #features {
+      margin: 40px auto 0 auto;
+      padding-bottom: 40px;
+    }
+    #features div {
+      display: inline-block;
+      width: 15%;
+      text-align: center;
+      padding: 10px 20px;
+      font-size: 0.8em;
+      vertical-align: top;
+    }
+    #features object {
+      display: block;
+      margin: 10px auto;
+      width: 50px;
+      height: 50px;
+      top: 0;
+    }
+    div#footer {
+      font-size: 14px;
+      padding: 20px 0;
+    }
+    #frdfooter {
+      color: #ccc;
+      margin-top: 20px;
+    }
+  </style>
 </head>
 <body>
-  <style>
-  body {
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    text-align: center;
-    line-height: 1.5em;
-    margin: 0;
-    padding: 0;
-  }
-  a {
-    color: rgb(0, 142, 226);
-    text-decoration: none;
-  }
-  a:hover {
-    text-decoration: underline;
-  }
-  #logo {
-    margin-top: 70px;
-  }
-  #logo object {
-    width: 34px;
-    height: 57px;
-  }
-  #content {
-    width: 80%;
-    min-width: 310px;
-    margin: 0 auto;
-    padding: 5px;
-  }
-  h1 {
-    margin: 30px 0 40px 0;
-    font-weight: 200;
-    letter-spacing: 2px;
-    font-size: 50px;
-  }
-  #learnmore {
-    padding: 30px 0;
-  }
-  input#email {
-    height: 30px;
-    width: 260px;
-    font-size: 18px;
-    padding: 5px;
-    border: none;
-    border-bottom: 2px solid #ccc;
-  }
-  input#email:focus {
-    outline: none;
-    border-color: #ED9B40;
-  }
-  button#submit {
-    cursor: pointer;
-    width: 44px;
-    height: 44px;
-    border: none;
-    padding: 0;
-    background-color: #fff;
-    position: relative;
-    bottom: -17px;
-  }
-  button#submit svg path {
-    fill: #ccc;
-  }
-  button#submit:hover svg path, button#submit:focus svg path, input#email:focus ~ button#submit svg path {
-    fill: #ED9B40;
-  }
-  div#footer {
-    font-size: 14px;
-    padding: 20px 0;
-  }
-  </style>
-  <div id="content">
+  <div id="header">
     <div id="logo">
-      <object data="images/logo.svg" type="image/svg+xml">
+      <object data="images/logo_white.svg" type="image/svg+xml">
         HIOME
       </object>
     </div>
-    <h1>HIOME</h1>
+    <h1>Meet the future of<br/>your <span>smart home.</span></h1>
+  </div>
+    <h2>Welcome Hiome.</h2>
+
+    <div id="features">
+      <div id="brain">
+        <object data="images/brain.svg" type="image/svg+xml">
+          Smart
+        </object>
+        Learns your habits through advanced machine learning.
+      </div>
+      <div id="snap">
+        <object data="images/snap.svg" type="image/svg+xml">
+          Easy
+        </object>
+        Makes your home smart with zero configuration. Just plug it in and enjoy.
+      </div>
+      <div id="homekit">
+        <object data="images/home.svg" type="image/svg+xml">
+          HomeKit
+        </object>
+        Works with your existing HomeKit setup to make your life easier.
+      </div>
+      <div id="privacy">
+        <object data="images/local.svg" type="image/svg+xml">
+          Local
+        </object>
+        Private by design, your data is stored locally for the best security.
+      </div>
+    </div>
+
+    <p><strong>Hiome</strong> transforms your connected home into an enchanted home that takes care of you like the king or queen you are.</p>
+
+    <div id="comingsoon"><span>Coming Soon</span></div>
 
     <div id="learnmore">
       <form action="https://happy-forwarder.herokuapp.com/user/716d64aa-34c9-49cc-a770-67d3b3a578d1" method="POST">
@@ -104,9 +187,14 @@
       </form>
     </div>
 
+    <h3>New to smart homes? <a href="/guide">Read our Getting Started Guide</a></h3>
+
     <div id="footer">
       <p><a href="mailto:founders@hiome.com">founders@hiome.com</a></p>
-      <p>In Chicago? Find us at the <a href="https://www.meetup.com/Chicago-Home-Automation/">Chicago Home Automation</a> meetups!</p>
+      <p>Find us at the <a href="https://www.meetup.com/Chicago-Home-Automation/">Chicago Home Automation</a> meetups!</p>
+      <p id="frdfooter">&copy; Copyright 2018 Hiome. All rights reserved.<br/>
+        HomeKit is a registered trademark of Apple Inc.
+        Icons from the Noun Project: Brain by ProSymbols, Snap by Yash Goel, Home by Olim.</p>
     </div>
   </div>
 </body>
