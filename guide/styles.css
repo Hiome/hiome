@@ -1,0 +1,191 @@
+body {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  text-align: center;
+  line-height: 1.5em;
+  margin: 0 auto;
+  padding: 0;
+  width: 80%;
+  min-width: 310px;
+}
+noscript p {
+  font-weight: bold;
+  margin-top: 100px;
+  color: red;
+}
+a {
+  color: rgb(0, 142, 226);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+#logo {
+  text-align: left;
+  margin-top: 50px;
+  float: left;
+}
+#logo object {
+  width: 34px;
+  height: 57px;
+}
+#logo span {
+  font-weight: 200;
+  font-size: 30px;
+  position: relative;
+  top: -8px;
+  left: 8px;
+  letter-spacing: 3px;
+}
+#content {
+  width: 100%;
+  min-width: 310px;
+  margin: 0;
+}
+.na {
+  display: none;
+}
+.disabled {
+  color: #ccc;
+}
+.disabled object path {
+  fill: #ccc;
+}
+.disabled ul {
+  display: none;
+}
+h1 {
+  margin: 30px 0 40px 0;
+  font-weight: 200;
+  letter-spacing: 2px;
+  font-size: 50px;
+}
+#learnmore {
+  padding: 30px 0 0 0;
+  text-align: center;
+}
+input#email {
+  height: 30px;
+  width: 260px;
+  font-size: 18px;
+  padding: 5px;
+  border: none;
+  border-bottom: 2px solid #ccc;
+}
+input#email:focus {
+  outline: none;
+  border-color: #ED9B40;
+}
+button#submit {
+  cursor: pointer;
+  width: 44px;
+  height: 44px;
+  border: none;
+  padding: 0;
+  background-color: #fff;
+  position: relative;
+  bottom: -17px;
+}
+button#submit svg path {
+  fill: #ccc;
+}
+button#submit:hover svg path, button#submit:focus svg path, input#email:focus ~ button#submit svg path {
+  fill: #ED9B40;
+}
+div#footer {
+  font-size: 14px;
+  padding: 20px 0;
+  margin-top: 100px;
+}
+p#footer_frd {
+  color: #ccc;
+}
+.slide {
+  padding: 50px 20px;
+  text-align: center;
+  display: none;
+}
+#content_frd {
+  margin-top: 100px;
+}
+#content_frd .slide {
+  display: block;
+}
+.slide h2 {
+  width: 70%;
+  margin: 10px auto 20px auto;
+}
+.details_link {
+  margin-left: 15px;
+}
+.slide a.bigBtn {
+  display: inline-block;
+  padding: 10px 30px;
+  margin: 20px;
+  background-color: orange;
+  color: #fff;
+  border-radius: 3px;
+  text-decoration: none;
+}
+.slide a.bigBtn:hover {
+  background-color: purple;
+  text-decoration: none;
+}
+sup {
+  vertical-align: super;
+  font-size: smaller;
+}
+.footnotes {
+  font-size: 90%;
+  color: #333;
+}
+#progress {
+  width: 400px;
+  height: 20px;
+  border: 1px solid green;
+  border-radius: 7px;
+  margin: 75px auto 0;
+  overflow: hidden;
+  display: inline-block;
+}
+#steps_remaining {
+  background-color: green;
+  width: 0%;
+}
+#results {
+  min-width: 310px;
+  text-align: left;
+  margin: 0 auto;
+  clear: both;
+}
+#results object {
+  width: 70px;
+  height: 70px;
+  float: left;
+  margin-top: 20px;
+}
+.striked {
+  text-decoration: line-through;
+}
+#results .result_content {
+  margin-left: 90px;
+}
+#results .result_content ul {
+  padding-left: 0;
+  list-style-type: none;
+}
+#results h3 {
+  padding-top: 5px;
+  display: inline-block;
+}
+#results .price {
+  float: right;
+}
+#results .striked .price {
+  text-decoration: line-through;
+}
+#results > div {
+  margin: 30px;
+  padding: 0 20px 20px 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
